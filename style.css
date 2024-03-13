@@ -1,38 +1,69 @@
-.bi-briefcase {
-  color: rgb(250, 88, 153);
-  font-size: 40px;
-  padding: 30px;
-  margin-left: 300px;
-  background-color: rgb(245, 228, 239);
-  background-size: 100px;
-  border-radius: 25px;
+body {
+
+  font-family: 'Times New Roman', Times, serif;
+
 }
 
-.nr {
-  font-family: 'Noto Sans Indic Siyaq Numbers', sans-serif;
-  font-size: 60px;
-  margin: 30px 300px 15px;
-  font-weight: 700;
-}
-
-.total {
-  color: rgb(112, 112, 112);
-  font-size: 30px;
-  margin: 0px 300px 15px;
-}
-
-.procent {
-  font-family: 'Noto Sans Indic Siyaq Numbers', sans-serif;
-  background-color: rgb(231, 227, 227);
-  padding: 10px;
-  width: 150px;
-  color: red;
-  margin-left: 300px;
-  border-radius: 13px;
-  margin-bottom: 50px;
-}
-
-.since {
-  color: rgb(102, 101, 101);
+.fundal {
+  display: flex;
+  height: 80px;
   margin-left: 10px;
+  width: 80px;
+  color: rgb(39, 154, 104);
+  padding: 10px;
+  background-color: rgba(255, 236, 237, 0.979);
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+.bi1{
+  font-size: 55px;
+
+}
+
+.bi2{
+  font-weight: bold;
+
+}
+.text{
+  color: #333333b2;
+  margin-left: 10px;
+}
+.produs {
+  margin-top: 20px;
+  font-family: "Lucida Console", "Madimi One", sans-serif;
+  font-size: 4rem;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #333;
+
+}
+
+.all {
+  align-items: center;
+}
+
+.rezultat {
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #3f9a45;
+}
+
+
+.timp {
+  color: #333333b2;
+  margin-left: 20px;
+  opacity: 0.8;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; 
 }
